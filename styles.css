@@ -1,0 +1,77 @@
+ul {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0px;
+    border: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #002f87;
+}
+
+li {
+    float: right;
+    border-right: 1px solid #FFC82E;
+}
+
+li img {
+    position: relative;
+    top: 1px;
+    width: 18px;
+    height: 14px;
+    left: -4px;
+}
+
+#active {
+    background-color: #FFC82E;
+    color: #002f87;
+}
+
+li:first-child {
+    float: left;
+    border-right: none;
+}
+
+li:nth-child(2) {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FFC82E;
+    color: #002f87;
+}
+
+#courses {
+    font-family: Arial;
+    border: 2px solid black;
+}
+
+body {
+    margin: 0;
+}
+
+#courseContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:5px
+}
+
+#courseContainer > div{
+    padding:10px;
+    border: 3px #002f87 solid;
+}
+
+#cText{
+   font-size: 32px;
+    text-align: center;
+}
